@@ -1,0 +1,57 @@
+:root{
+    --color1: #265a63;
+}
+
+
+.head {
+  display: flex;
+  background-color: #00161a17;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+.img {
+  padding-left: 3%;
+}
+
+.info h2 {
+  font-size: 300%;
+}
+
+.info {
+  padding-top: 6%;
+  padding-left: 3%;
+  text-align: start;
+
+}
+
+.info p{
+    padding-top: 4%;
+}
+
+.bt{
+    background-color: var(--color1);
+    color: white;
+    width: 20%;
+}
+
+
+.destacado{
+  display: flex;
+flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+.destacado li{
+  display: flex;
+}
+
+.destacado img{
+  border-radius: 3%;
+  width: 150%;
+}
+
+.des{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: start;
+}
