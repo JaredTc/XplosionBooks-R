@@ -1,4 +1,14 @@
+root{
+  --color1: #265a63;
+  --colorIni1:#006d77;
+  --colorSec2: #83c5be;
+  --colorTerc3: #edf6f9;
+  --colorfour4: #ffddd2;
+  --colorfive5: #e29578;
+}
+
 .App {
+
   text-align: center;
 }
 
