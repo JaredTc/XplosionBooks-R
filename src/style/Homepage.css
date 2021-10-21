@@ -1,9 +1,21 @@
 :root{
-    --color1: #265a63;
+  --color1: #265a63;
+  --colorIni1:#006d77;
+  --colorSec2: #83c5be;
+  --colorTerc3: #edf6f9;
+  --colorfour4: #ffddd2;
+  --colorfive5: #e29578;
+}
+*{
+  padding: 0%;
+  margin: 0%;
+
 }
 
 
+
 .head {
+  
   display: flex;
   background-color: #00161a17;
   border-radius: 6px;
@@ -33,9 +45,14 @@
     color: white;
     width: 20%;
 }
-
+.bt:hover{
+  background-color: var(--colorSec2);
+  color: black;
+}
 
 .destacado{
+
+  position: relative;
   display: flex;
 flex-wrap: wrap;
   justify-content: space-evenly;
@@ -46,6 +63,7 @@ flex-wrap: wrap;
 }
 
 .destacado img{
+ 
   border-radius: 3%;
   width: 150%;
 }
@@ -54,4 +72,30 @@ flex-wrap: wrap;
   padding-top: 3%;
   padding-bottom: 3%;
   text-align: start;
+}
+
+
+.destacado2{
+  position: relative;
+  display: flex;
+flex-wrap: wrap;
+padding-top: 5%;
+  justify-content: space-evenly;
+  list-style: none;
+
+}
+
+.destacado2 img{
+  border-radius: 3%;
+  width: 150%;
+}
+
+.nav-item:hover{
+  background-color: #016b7e9d;
+  
+}
+
+
+.home{
+  padding-top: 1%;
 }
