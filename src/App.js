@@ -5,31 +5,36 @@ import './App.css';
 import {Footer} from  '../src/layouts/footer'
  import {HomePage} from '../src/layouts/Homepague'
 import {DestadoPage} from './layouts/destacado2'
-import { BrowserRouter as Router, Switch, Route,} from "react-router-dom";
+import { BrowserRouter, Switch, Route,} from "react-router-dom";
 import { Category } from './layouts/categorias';
 import {Navbar} from '../src/layouts/navbar'
 function App() {
   return (
+    <BrowserRouter>
+    <Navbar />
     <div >
-      <Navbar />
-    {/* <Router>
-      <Header>
-        <Switch>
-          <Route exact path="/category">
-            <Category />
-          </ Route>
-        </Switch>
-      </Header>
-    </Router> */}
-
-     
-
-      <HomePage />
-      < DestadoPage />
-   
-     < Footer /> 
+       <Switch>
+              <Route exact path="/">
+              <HomePage />
+              < DestadoPage />
+              </Route>
+              <Route exact path="/category">
+                <Category />
+              </Route>
+              <Route exact path="/contact">
+                {/* <Contactanos /> */}
+              </Route>
+              <Route exact path="/registro">
+                {/* <Registro /> */}
+              </Route>
+              <Route path="/start">
+                {/* <IniciarSesion /> */}
+              </Route>
+            </Switch> 
+            < Footer />
     
     </div>
+    </BrowserRouter>
   );
 }
 

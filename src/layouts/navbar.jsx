@@ -2,29 +2,19 @@
 import {HomePage} from './Homepague'
 import {DestadoPage} from './destacado2'
 import {Footer} from  './footer' */
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link,
-    useRouteMatch,
-    useParams
-  } from "react-router-dom";
-
+import { Link } from 'react-router-dom';
   export const Navbar = () =>{
     return (
-        <Router>
-          
           <nav className="navbar navbar-expand-lg  d-flex justify-content-end navbar-light bg-light">
         <div className="container-fluid  ">
-          <a className="navbar-brand" href="#">XplosionBooks</a>
+          <a className="navbar-brand" to="/">XplosionBooks</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse  navbar-collapse " id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
               <li className="nav-item">
-                <Link  className="nav-link active hov" aria-current="page" to="/home"> Inicio</Link>
+                <Link  className="nav-link active hov" aria-current="page" to="/"> Inicio</Link>
               </li>
               <li className="nav-item">
               <Link  className="nav-link active hov" aria-current="page" to="/category"> Categorias</Link>
@@ -51,25 +41,7 @@ import {
   
         </div>
       </nav>
-    {/* 
-            <Switch>
-              <Route path="/home">
-                <Home />
-              </Route>
-              <Route path="/category">
-                <Categoria />
-              </Route>
-              <Route path="/contact">
-                <Contactanos />
-              </Route>
-              <Route path="/registro">
-                <Registro />
-              </Route>
-              <Route path="/start">
-                <IniciarSesion />
-              </Route>
-            </Switch> */}
-        </Router>
+   
       );
     }
     
