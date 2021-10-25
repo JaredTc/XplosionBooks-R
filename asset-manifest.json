@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/XplosionBooks-R/static/css/main.e7e3c283.chunk.css",
+    "main.js": "/XplosionBooks-R/static/js/main.84f25f9f.chunk.js",
+    "main.js.map": "/XplosionBooks-R/static/js/main.84f25f9f.chunk.js.map",
+    "runtime-main.js": "/XplosionBooks-R/static/js/runtime-main.65553430.js",
+    "runtime-main.js.map": "/XplosionBooks-R/static/js/runtime-main.65553430.js.map",
+    "static/css/2.0f1110e3.chunk.css": "/XplosionBooks-R/static/css/2.0f1110e3.chunk.css",
+    "static/js/2.9047d6f6.chunk.js": "/XplosionBooks-R/static/js/2.9047d6f6.chunk.js",
+    "static/js/2.9047d6f6.chunk.js.map": "/XplosionBooks-R/static/js/2.9047d6f6.chunk.js.map",
+    "index.html": "/XplosionBooks-R/index.html",
+    "static/css/2.0f1110e3.chunk.css.map": "/XplosionBooks-R/static/css/2.0f1110e3.chunk.css.map",
+    "static/css/main.e7e3c283.chunk.css.map": "/XplosionBooks-R/static/css/main.e7e3c283.chunk.css.map",
+    "static/js/2.9047d6f6.chunk.js.LICENSE.txt": "/XplosionBooks-R/static/js/2.9047d6f6.chunk.js.LICENSE.txt",
+    "static/media/Libro1.c085ba5e.jpg": "/XplosionBooks-R/static/media/Libro1.c085ba5e.jpg",
+    "static/media/Libro10.b909f49d.jpg": "/XplosionBooks-R/static/media/Libro10.b909f49d.jpg",
+    "static/media/Libro2.cb72229c.jpg": "/XplosionBooks-R/static/media/Libro2.cb72229c.jpg",
+    "static/media/Libro3.3c6dca0e.jpg": "/XplosionBooks-R/static/media/Libro3.3c6dca0e.jpg",
+    "static/media/Libro4.81f1dc9b.jpg": "/XplosionBooks-R/static/media/Libro4.81f1dc9b.jpg",
+    "static/media/Libro5.30d442d7.jpg": "/XplosionBooks-R/static/media/Libro5.30d442d7.jpg",
+    "static/media/Libro6.e2676215.jpg": "/XplosionBooks-R/static/media/Libro6.e2676215.jpg",
+    "static/media/Libro7.b87f8ddd.jpg": "/XplosionBooks-R/static/media/Libro7.b87f8ddd.jpg",
+    "static/media/Libro8.b9492d3a.jpg": "/XplosionBooks-R/static/media/Libro8.b9492d3a.jpg",
+    "static/media/Terror.8bff6752.png": "/XplosionBooks-R/static/media/Terror.8bff6752.png",
+    "static/media/ciencieF.b45392cc.png": "/XplosionBooks-R/static/media/ciencieF.b45392cc.png",
+    "static/media/comic.4c5624cb.png": "/XplosionBooks-R/static/media/comic.4c5624cb.png",
+    "static/media/fantasia.649f72e5.png": "/XplosionBooks-R/static/media/fantasia.649f72e5.png",
+    "static/media/infantil.3eba6c35.png": "/XplosionBooks-R/static/media/infantil.3eba6c35.png",
+    "static/media/novelas.fa4f24ff.png": "/XplosionBooks-R/static/media/novelas.fa4f24ff.png",
+    "static/media/teslaNk.c9dda3e6.jfif": "/XplosionBooks-R/static/media/teslaNk.c9dda3e6.jfif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65553430.js",
+    "static/css/2.0f1110e3.chunk.css",
+    "static/js/2.9047d6f6.chunk.js",
+    "static/css/main.e7e3c283.chunk.css",
+    "static/js/main.84f25f9f.chunk.js"
+  ]
+}
