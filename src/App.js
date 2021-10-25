@@ -14,17 +14,17 @@ function App() {
     <Navbar />
     <div >
        <Switch>
-              <Route exact path="/inicio">
+              <Route path="/">
               <HomePage />
               < DestadoPage />
               </Route>
-              <Route exact path="/category">
+              <Route  path="/category">
                 <Category />
               </Route>
-              <Route exact path="/contact">
+              <Route  path="/contact">
                 {/* <Contactanos /> */}
               </Route>
-              <Route exact path="/registro">
+              <Route  path="/registro">
                 {/* <Registro /> */}
               </Route>
               <Route path="/start">
