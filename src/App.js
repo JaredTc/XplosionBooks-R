@@ -18,16 +18,16 @@ function App() {
               <HomePage />
               < DestadoPage />
               </Route>
-              <Route  path="/category">
+              <Route  exact path="/category">
                 <Category />
               </Route>
-              <Route  path="/contact">
+              <Route exact path="/contact">
                 {/* <Contactanos /> */}
               </Route>
-              <Route  path="/registro">
+              <Route exact path="/registro">
                 {/* <Registro /> */}
               </Route>
-              <Route path="/start">
+              <Route  exact path="/start">
                 {/* <IniciarSesion /> */}
               </Route>
             </Switch> 
