@@ -14,7 +14,7 @@ function App() {
     <Navbar />
     <div >
        <Switch>
-              <Route exact path="/">
+              <Route exact path="/inicio">
               <HomePage />
               < DestadoPage />
               </Route>
