@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
     return (
           <nav className="navbar navbar-expand-lg  d-flex justify-content-end navbar-light bg-light">
         <div className="container-fluid  ">
-          <a className="nav-link" to="/">XplosionBooks</a>
+          <a className="navbar-brand" to="/">XplosionBooks</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
