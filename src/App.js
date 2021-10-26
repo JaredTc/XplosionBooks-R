@@ -18,7 +18,7 @@ function App() {
               <HomePage />
               < DestadoPage />
               </Route>
-              <Route  exact path="/category">
+              <Route   path="/category">
                 <Category />
               </Route>
               <Route exact path="/contact">
