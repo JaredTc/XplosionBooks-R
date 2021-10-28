@@ -1,19 +1,23 @@
 
 import '../style/categorias.css'
-import Terror from '../assets/categorias/Terror.png'
+import Terror1 from '../assets/categorias/Terror.png'
 import Ciencia from '../assets/categorias/teslaNk.jfif'
 import fantasia from '../assets/categorias/fantasia.png'
 import CiencieF from '../assets/categorias/ciencieF.png'
 import Novelas from '../assets/categorias/novelas.png'
 import Infantil from '../assets/categorias/infantil.png'
- 
+
+
+
 
 export const Category = () =>{
     return(
+        
         <div className="contenedor">
-             <a href="/">
+            <a to="/scary">
+
                 <figure>
-                    <img src={Terror} />
+                    <img src={Terror1} />
                     <div className="capa">
                         <h3>Terror</h3>
                         <p>El horror o terror es un género literario que se define por la sensación que causa: miedo.

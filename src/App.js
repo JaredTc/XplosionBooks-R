@@ -3,12 +3,11 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import './App.css';
 // import {Header} from '../src/layouts/Header'
 import {Footer} from  '../src/layouts/footer'
-import {HomePage} from '../src/layouts/Homepague'
-import {DestadoPage} from './layouts/destacado2'
+ import {HomePage} from '../src/layouts/Homepague'
 import { BrowserRouter, Switch, Route,} from "react-router-dom";
 import { Category } from './layouts/categorias';
 import {Navbar} from '../src/layouts/navbar'
-
+// import { Terror } from './layouts/Terror';
 function App() {
   return (
     <BrowserRouter>
@@ -17,7 +16,6 @@ function App() {
        <Switch>
               <Route exact path="/">
               <HomePage />
-              < DestadoPage />
               </Route>
               <Route   path="/category">
                 <Category />
