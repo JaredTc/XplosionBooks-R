@@ -10,11 +10,11 @@ export const DestadoPage = () =>{
 
     return(
         <div className="destacado2">
-            <li><a href="#"><img src={libro5} alt="" /></a></li>
-            <li><a href="#"><img src={libro7} alt="" /></a></li>
-            <li><a href="#"><img src={libro8} alt="" /></a></li>
-            <li><a href="#"><img src={libro9} alt="" /></a></li>
-            <li><a href="#"><img src={libro10} alt="" /></a></li>
+            <li><a href="/"><img src={libro5} alt="" /></a></li>
+            <li><a href="/"><img src={libro7} alt="" /></a></li>
+            <li><a href="/"><img src={libro8} alt="" /></a></li>
+            <li><a href="/"><img src={libro9} alt="" /></a></li>
+            <li><a href="/"><img src={libro10} alt="" /></a></li>
 
 
         </div>

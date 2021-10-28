@@ -60,6 +60,8 @@ flex-wrap: wrap;
 }
 .destacado li{
   display: flex;
+ 
+
 }
 
 .destacado img{
