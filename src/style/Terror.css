@@ -1,6 +1,17 @@
+root{
+    --color1: #265a63;
+    --colorIni1:#006d77;
+    --colorSec2: #83c5be;
+    --colorTerc3: #edf6f9;
+    --colorfour4: #ffddd2;
+    --colorfive5: #e29578;
+  }
+
 .customc{
     display: flex;
     flex-wrap: wrap;
+    
+  
     justify-content: space-evenly;
     align-items: center;
 }
@@ -8,6 +19,26 @@
 .sty{
    
     background-color: rgb(206, 206, 206);
+    width: 10%
+    ;
 
-    height: 300px;
+   
+}
+
+
+
+.boton{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.boton button{
+    background-color: var(--color1) ;
+    color: white;
+    width: 150%;
+}
+button:hover{
+    background-color: var(--colorSec2);
+
 }
