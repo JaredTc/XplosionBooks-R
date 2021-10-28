@@ -1,3 +1,4 @@
+
 import '../style/categorias.css'
 import Terror from '../assets/categorias/Terror.png'
 import Ciencia from '../assets/categorias/teslaNk.jfif'
