@@ -8,6 +8,7 @@ import {DestadoPage} from './layouts/destacado2'
 import { BrowserRouter, Switch, Route,} from "react-router-dom";
 import { Category } from './layouts/categorias';
 import {Navbar} from '../src/layouts/navbar'
+
 function App() {
   return (
     <BrowserRouter>
@@ -25,7 +26,7 @@ function App() {
                 {/* <Contactanos /> */}
               </Route>
               <Route exact path="/registro">
-                {/* <Registro /> */}
+               {/* <Terror /> */}
               </Route>
               <Route  exact path="/start">
                 {/* <IniciarSesion /> */}

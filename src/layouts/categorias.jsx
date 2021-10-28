@@ -51,7 +51,7 @@ export const Category = () =>{
                     </div>
                 </figure>
             </a>
-            <a href="#">
+            <a href="/">
                 <figure>
                     <img src={Infantil}/>
                     <div className="capa">
@@ -61,7 +61,7 @@ export const Category = () =>{
                     </div>
                 </figure>
             </a>
-            <a href="#">
+            <a href="/">
                 <figure>
                     <img src={Novelas}/>
                     <div className="capa">

@@ -1,0 +1,13 @@
+.customc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sty{
+   
+    background-color: rgb(206, 206, 206);
+
+    height: 300px;
+}
