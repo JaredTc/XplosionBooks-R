@@ -14,8 +14,8 @@ function App() {
     <Navbar />
     <div >
        <Switch>
-              <Route exact path="/Home" component={HomePage}/>
-              <Route   path="/category" component={Category}/>
+              <Route exact path="/" component={HomePage}/>
+              <Route  exact  path="/category" component={Category}/>
               <Route exact path="/contact"/>
               <Route exact path="/registro"/>
               <Route  exact path="/start"/>

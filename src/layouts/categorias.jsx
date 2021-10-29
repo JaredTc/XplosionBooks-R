@@ -30,9 +30,9 @@ export const Category = () =>{
                 <figure>
                     <img src={Ciencia} />
                     <div className="capa">
-                        <h3>Terror</h3>
-                        <p>El horror o terror es un género literario que se define por la sensación que causa: miedo.
-                        </p>
+                    <h3>Ciencia y demas</h3>
+                        <p>Comenzaron con cartas personales entre los científicos, libros y publicaciones periódicas
+                            (como anuarios o revistas científicas)</p>
                     </div>
                 </figure>
             </a>
@@ -40,9 +40,9 @@ export const Category = () =>{
                 <figure>
                     <img src={fantasia} />
                     <div className="capa">
-                        <h3>Terror</h3>
-                        <p>El horror o terror es un género literario que se define por la sensación que causa: miedo.
-                        </p>
+                    <h3>Fantasia</h3>
+                        <p>El término literatura fantástica alude a un género narrativo basado sobre todo en los
+                            elementos de fantasía, como la magia o la intervención de criaturas inexistentes.</p>
                     </div>
                 </figure>
             </a>
