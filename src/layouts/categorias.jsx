@@ -6,6 +6,7 @@ import fantasia from '../assets/categorias/fantasia.png'
 import CiencieF from '../assets/categorias/ciencieF.png'
 import Novelas from '../assets/categorias/novelas.png'
 import Infantil from '../assets/categorias/infantil.png'
+import { Link } from 'react-router-dom'
 
 
 
@@ -14,7 +15,7 @@ export const Category = () =>{
     return(
         
         <div className="contenedor">
-            <a to="/scary">
+            <Link to="/scary">
 
                 <figure>
                     <img src={Terror1} />
@@ -24,7 +25,7 @@ export const Category = () =>{
                         </p>
                     </div>
                 </figure>
-            </a>
+            </Link>
              <a href="/">
                 <figure>
                     <img src={Ciencia} />

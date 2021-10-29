@@ -10,17 +10,16 @@ root{
 .customc{
     display: flex;
     flex-wrap: wrap;
-    
-  
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .sty{
-   
+   justify-content: center;
     background-color: rgb(206, 206, 206);
-    width: 10%
-    ;
+    width: 10%;
+    margin-bottom: 5%;
+    
 
    
 }
@@ -42,3 +41,8 @@ button:hover{
     background-color: var(--colorSec2);
 
 }
+
+.cc{
+    padding-top: 2%;
+}
+

@@ -4,7 +4,7 @@ import "../style/Homepage.css";
 
 export const HomePage = () => {
   return (
-    <div className="container">
+    <div className="container" > 
       <div className="card mb-3 p-4 head border-light ">
         <div className="row g-0">
           <div className="col-md-6 img">
@@ -25,7 +25,7 @@ export const HomePage = () => {
                 repudiandae unde nulla reprehenderit rem inventore in!
               </p>
               <div className="buton">
-              <button className="btn ">Start</button>
+             
               </div>
             </div>
           </div>
