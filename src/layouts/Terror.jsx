@@ -4,40 +4,23 @@ import Terror1 from '../assets/categorias/Terror.png'
 export const Terror = () => {
     return (
         <div className="container mt-5">
-            <div className="col mb-5 customc">
-                <div className="card shadow sty" style={{ minWidth: "250px" }}>
+            <div className="col customc">
+                <div className="card shadow  sty" style={{ minWidth: "250px" }}>
                 <img className="card-img-top"  src={Terror1} />
                     <div className="card-body">
                     <h5 className="card-title">Card title</h5>
                     <div className="boton">
                       
                         <button href="#" className="btn">
-                            Comprar
+                            Ver Mas
                         </button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card shadow sty" style={{ minWidth: "250px" }}>
-                <img className="card-img-top"  src={Terror1} />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <div className="boton">
                        
-                        <button href="#" className="btn ">
-                            Comprar
-                        </button>
                         </div>
-                    </div>
-                </div>
-                <div className="card shadow sty" style={{ minWidth: "250px" }}>
-                <img className="card-img-top"  src={Terror1} />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <div className="boton">
-                       
+                        <div className="boton cc">
                         <button href="#" className="btn">
-                            Comprar
+                            Agregar al carrito
                         </button>
+
                         </div>
                     </div>
                 </div>
@@ -46,11 +29,18 @@ export const Terror = () => {
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <div className="boton">
-                        
-                        <button href="#" className="btn ">
-                            Comprar
-                        </button>
-                        </div>
+                      
+                      <button href="#" className="btn">
+                          Ver Mas
+                      </button>
+                     
+                      </div>
+                      <div className="boton cc">
+                      <button href="#" className="btn">
+                          Agregar al carrito
+                      </button>
+
+                      </div>
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -58,22 +48,17 @@ export const Terror = () => {
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <div className="boton">
-                        
-                        <button href="#" className="btn ">
-                            Comprar
+                      
+                        <button href="#" className="btn">
+                            Ver Mas
                         </button>
-                        </div>
-                    </div>
-                </div>
-                <div className="card shadow sty" style={{ minWidth: "250px" }}>
-                <img className="card-img-top"  src={Terror1} />
-                    <div className="card-body">
-                        <h5 className="card-title">Card title</h5>
-                        <div className="boton">
                        
-                        <button href="#" className="btn ">
-                            Comprar
+                        </div>
+                        <div className="boton cc">
+                        <button href="#" className="btn">
+                            Agregar al carrito
                         </button>
+
                         </div>
                     </div>
                 </div>
@@ -83,9 +68,16 @@ export const Terror = () => {
                         <h5 className="card-title">Card title</h5>
                         <div className="boton">
                       
-                        <button href="#" className="btn ">
-                            Comprar
+                        <button href="#" className="btn">
+                            Ver Mas
                         </button>
+                       
+                        </div>
+                        <div className="boton cc">
+                        <button href="#" className="btn">
+                            Agregar al carrito
+                        </button>
+
                         </div>
                     </div>
                 </div>
@@ -95,9 +87,73 @@ export const Terror = () => {
                         <h5 className="card-title">Card title</h5>
                         <div className="boton">
                       
-                        <button href="#" className="btn ">
-                            Comprar
+                      <button href="#" className="btn">
+                          Ver Mas
+                      </button>
+                     
+                      </div>
+                      <div className="boton cc">
+                      <button href="#" className="btn">
+                          Agregar al carrito
+                      </button>
+
+                      </div>
+                    </div>
+                </div>
+                <div className="card shadow sty" style={{ minWidth: "250px" }}>
+                <img className="card-img-top"  src={Terror1} />
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <div className="boton">
+                      
+                        <button href="#" className="btn">
+                            Ver Mas
                         </button>
+                       
+                        </div>
+                        <div className="boton cc">
+                        <button href="#" className="btn">
+                            Agregar al carrito
+                        </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div className="card shadow sty" style={{ minWidth: "250px" }}>
+                <img className="card-img-top"  src={Terror1} />
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <div className="boton">
+                      
+                      <button href="#" className="btn">
+                          Ver Mas
+                      </button>
+                     
+                      </div>
+                      <div className="boton cc">
+                      <button href="#" className="btn">
+                          Agregar al carrito
+                      </button>
+
+                      </div>
+                    </div>
+                </div>
+                <div className="card shadow sty" style={{ minWidth: "250px" }}>
+                <img className="card-img-top"  src={Terror1} />
+                    <div className="card-body">
+                        <h5 className="card-title">Card title</h5>
+                        <div className="boton">
+                      
+                        <button href="#" className="btn">
+                            Ver Mas
+                        </button>
+                       
+                        </div>
+                        <div className="boton cc">
+                        <button href="#" className="btn">
+                            Agregar al carrito
+                        </button>
+
                         </div>
                     </div>
                 </div>

@@ -7,32 +7,25 @@ import {Footer} from  '../src/layouts/footer'
 import { BrowserRouter, Switch, Route,} from "react-router-dom";
 import { Category } from './layouts/categorias';
 import {Navbar} from '../src/layouts/navbar'
-// import { Terror } from './layouts/Terror';
+import { Terror } from './layouts/Terror';
 function App() {
   return (
     <BrowserRouter>
     <Navbar />
     <div >
        <Switch>
-              <Route exact path="/">
-              <HomePage />
-              </Route>
-              <Route   path="/category">
-                <Category />
-              </Route>
-              <Route exact path="/contact">
-                {/* <Contactanos /> */}
-              </Route>
-              <Route exact path="/registro">
-               {/* <Terror /> */}
-              </Route>
-              <Route  exact path="/start">
-                {/* <IniciarSesion /> */}
-              </Route>
+              <Route exact path="/Home" component={HomePage}/>
+              <Route   path="/category" component={Category}/>
+              <Route exact path="/contact"/>
+              <Route exact path="/registro"/>
+              <Route  exact path="/start"/>
+              <Route exact path="/scary" component={Terror}/>
+              
             </Switch> 
-            < Footer />
+           
     
     </div>
+    < Footer />
     </BrowserRouter>
   );
 }
