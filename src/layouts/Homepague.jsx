@@ -16,7 +16,7 @@ export const HomePage = () => {
             />
           </div>
           <div className="col-md-5">
-            <div className="card-body">
+            <div className="card-body info">
               <h1 className="card-title">Welcome To XplosionBooks</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
