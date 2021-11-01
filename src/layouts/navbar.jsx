@@ -17,16 +17,16 @@ import { Link } from 'react-router-dom';
                 <Link  className="nav-link active hov" aria-current="page" to="/"> Inicio</Link>
               </li>
               <li className="nav-item">
-              <Link  className="nav-link active hov" aria-current="page" to="/category"> Categorias</Link>
+              <Link  className="nav-link active hov" aria-current="page" to="/category"> Categorías</Link>
               </li>
               <li className="nav-item">
-              <Link  className="nav-link active hov" aria-current="page" to="/contact"> Contactanos</Link>
+              <Link  className="nav-link active hov" aria-current="page" to="/contact"> Contáctanos</Link>
               </li>
               <li className="nav-item">
               <Link  className="nav-link active hov" aria-current="page" to="/registro"> Registro</Link>
               </li>
               <li className="nav-item">
-              <Link  className="nav-link active hov" aria-current="page" to="/start"> Iniciar Sesion</Link>
+              <Link  className="nav-link active hov" aria-current="page" to="/start"> Iniciar Sesión</Link>
               </li>
 
               <li className="nav-item">
