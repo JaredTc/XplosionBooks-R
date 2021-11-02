@@ -9,6 +9,8 @@ import { Category } from './layouts/categorias';
 import {Navbar} from '../src/layouts/navbar'
 import { Terror } from './layouts/Terror';
 import {IniciarSesion} from './layouts/iniciar_sesión';
+import {Registro} from './layouts/registro';
+
 function App() {
   return (
     <BrowserRouter>
@@ -18,7 +20,7 @@ function App() {
               <Route exact path="/" component={HomePage}/>
               <Route  exact  path="/category" component={Category}/>
               <Route exact path="/contact"/>
-              <Route exact path="/registro"/>
+              <Route exact path="/registro" component={Registro}/>
               <Route  exact path="/start"component={IniciarSesion}/>
               <Route exact path="/scary" component={Terror}/>
               
