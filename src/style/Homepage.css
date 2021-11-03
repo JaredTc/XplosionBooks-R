@@ -1,8 +1,8 @@
 :root{
   --color1: #265a63;
   --colorIni1:#006d77;
-  --colorSec2: #83c5be;
-  --colorTerc3: #edf6f9;
+   --colorSec2: #83c5be; 
+   --colorTerc3: #edf6f9; 
   --colorfour4: #ffddd2;
   --colorfive5: #e29578;
 }
@@ -15,7 +15,6 @@
 
 
 .head {
-  
   display: flex;
   background-color: #00161a17;
   border-radius: 6px;
@@ -26,7 +25,8 @@
 }
 
 .info h1 {
-  font-size: 300%;
+  padding-top: 6%;
+  font-size: 250%;
 }
 
 .info {
@@ -37,7 +37,8 @@
 }
 
 .info p{
-    padding-top: 4%;
+    padding-top: 10%;
+    font-size: medium;
 }
 
 .bt{
@@ -189,3 +190,69 @@ button:hover{
 .title2{
   color: var(--colorfive5);
 }
+
+
+.price{
+  display: flex;
+
+}
+
+.pst{
+  color: rgb(230, 158, 26);
+  font-size: 40px;
+}
+
+.ps{
+  color: rgb(230, 158, 26);
+
+}
+
+.book{
+  display: flex;
+  align-items: center;
+  justify-content:  center ;
+}
+
+.bd h1 {
+  padding-top: 6%;
+  font-size: 250%;
+}
+
+.bd {
+ 
+  padding-top: 6%;
+  padding-left: 3%;
+  text-align: start;
+  height: 500px;
+
+}
+
+.bd p{
+    padding-top: 10%;
+    font-size: medium;
+}
+
+.context {
+ 
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+
+
+.comment img{
+  width: 13%;
+  position: relative;
+
+  
+}
+.comment{
+  display: flex;
+}
+
+.comentario{
+  font-size: small;
+  padding-left: 2%;
+}
+

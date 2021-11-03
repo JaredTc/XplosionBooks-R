@@ -3,7 +3,7 @@ import Terror1 from '../assets/categorias/Terror.png'
 
 export const Terror = () => {
     return (
-        <div className="container mt-5">
+        <div className="container mx-auto mt-5">
             <div className="col customc">
                 <div className="card shadow  sty" style={{ minWidth: "250px" }}>
                 <img className="card-img-top"  src={Terror1} />

@@ -8,12 +8,13 @@ import libro7 from "../assets/destacado/Libro7.jpg";
 import libro8 from "../assets/destacado/Libro8.jpg";
 import libro9 from "../assets/destacado/Libro9.jpg";
 import libro10 from "../assets/destacado/Libro10.jpg";
+import { Link } from "react-router-dom";
 
 export const Destacado = () => {
     return (
         <div className="destacado">
             <li>
-                <a href="/">
+                <Link to="/etica">
                     <figure>
                         <img src={Libro1} alt="" />
                         <div className="capa">
@@ -29,7 +30,7 @@ export const Destacado = () => {
                             <p>(3 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
                 <a href="/">

@@ -1,6 +1,6 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
-import './App.css';
+
 // import {Header} from '../src/layouts/Header'
 import {Footer} from  '../src/layouts/footer'
 import {HomePage} from '../src/layouts/Homepague'
@@ -10,6 +10,7 @@ import {Navbar} from '../src/layouts/navbar'
 import { Terror } from './layouts/Terror';
 import {IniciarSesion} from './layouts/iniciar_sesión';
 import {Registro} from './layouts/registro';
+import { Etica } from './components/Etica';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
               <Route exact path="/registro" component={Registro}/>
               <Route  exact path="/start"component={IniciarSesion}/>
               <Route exact path="/scary" component={Terror}/>
-              
+              <Route exact path="/etica" component={Etica}/ >              
             </Switch> 
            
     
