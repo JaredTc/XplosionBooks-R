@@ -7,6 +7,8 @@ root{
     --colorfive5: #e29578;
   }
 
+
+  
 .customc{
     display: flex;
     flex-wrap: wrap;
@@ -37,10 +39,7 @@ root{
     color: white;
     width: 150%;
 }
-button:hover{
-    background-color: var(--colorSec2);
 
-}
 
 .cc{
     padding-top: 2%;

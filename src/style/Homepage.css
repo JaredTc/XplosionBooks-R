@@ -1,8 +1,8 @@
 :root{
   --color1: #265a63;
   --colorIni1:#006d77;
-  --colorSec2: #83c5be;
-  --colorTerc3: #edf6f9;
+   --colorSec2: #83c5be; 
+   --colorTerc3: #edf6f9; 
   --colorfour4: #ffddd2;
   --colorfive5: #e29578;
 }
@@ -15,7 +15,6 @@
 
 
 .head {
-  
   display: flex;
   background-color: #00161a17;
   border-radius: 6px;
@@ -26,18 +25,20 @@
 }
 
 .info h1 {
-  font-size: 300%;
+  padding-top: 5%;
+  font-size: 250%;
 }
 
 .info {
-  padding-top: 6%;
+  padding-top: 5%;
   padding-left: 3%;
   text-align: start;
 
 }
 
 .info p{
-    padding-top: 4%;
+    padding-top: 8%;
+    font-size: medium;
 }
 
 .bt{
@@ -45,10 +46,7 @@
     color: white;
     width: 20%;
 }
-.bt:hover{
-  background-color: var(--colorSec2);
-  color: black;
-}
+
 
 .destacado{
 
@@ -167,25 +165,139 @@ padding-top: 5%;
 }
 
 
-.buton{
-  display: flex;
 
+.butonn:focus{
+  outline: 0;
+
+}
+
+.butonn::after{
+  content: "";
+  position: absolute;
+  border: 1px solid #000000;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+.butonn:hover:after{
+  bottom: 2px;
+  left: 2px;
+}
+
+@media (min-width: 768px) {
+  .butonn{
+    padding: .75rem 3rem;
+  font-size: 1.25rem;
+}
   
 }
 
-.buton button{
-  background-color: var(--color1) ;
-  color: white;
-  width: 50%;
-}
-button:hover{
-  background-color: var(--colorSec2);
 
+.butonn{
+  background-color: var(--colorSec2);
+  border: 0 solid #e5e7eb;
+  box-sizing: border-box;
+  color: #000000;
+  display: flex;
+  font-family: "Segoe UI";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding:  .75rem 1.65rem;
+  position: relative;
+  text-align: center;
+  text-decoration: none #000000 solid;
+  text-decoration-thickness: auto;
+  width: 100%;
+  max-width: 200px;
+  position: relative;
+  cursor: pointer;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
+
+
 
 .titulo{
   color: var(--colorIni1);
 }
 .title2{
   color: var(--colorfive5);
+}
+
+
+.price{
+  display: flex;
+
+}
+
+.pst{
+  color: rgb(230, 158, 26);
+  font-size: 40px;
+}
+
+.ps{
+  color: rgb(230, 158, 26);
+
+}
+
+.book{
+  display: flex;
+  align-items: center;
+  justify-content:  center ;
+}
+
+.bd h1 {
+  padding-top: 6%;
+  font-size: 250%;
+}
+
+.bd {
+ 
+  padding-top: 6%;
+  padding-left: 3%;
+  text-align: start;
+  height: 500px;
+
+}
+
+.bd p{
+    padding-top: 10%;
+    font-size: medium;
+}
+
+.context {
+ 
+  display: flex;
+  background-color: white;
+  border-radius: 6px;
+  justify-content: space-between;
+}
+
+
+.comment img{
+  width: 13%;
+  position: relative;
+
+  
+}
+.comment{
+  display: flex;
+ 
+}
+
+.comentario{
+  font-size: small;
+  padding-left: 2%;
+}
+
+
+.bot{
+  text-decoration: none !important;
+  padding-top: 3%;
+
 }
