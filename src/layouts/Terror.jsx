@@ -16,12 +16,7 @@ export const Terror = () => {
                         </button>
                        
                         </div>
-                        <div className="boton cc">
-                        <button href="#" className="btn">
-                            Agregar al carrito
-                        </button>
-
-                        </div>
+                       
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -35,12 +30,7 @@ export const Terror = () => {
                       </button>
                      
                       </div>
-                      <div className="boton cc">
-                      <button href="#" className="btn">
-                          Agregar al carrito
-                      </button>
-
-                      </div>
+                     
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -54,12 +44,7 @@ export const Terror = () => {
                         </button>
                        
                         </div>
-                        <div className="boton cc">
-                        <button href="#" className="btn">
-                            Agregar al carrito
-                        </button>
-
-                        </div>
+                       
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -73,12 +58,7 @@ export const Terror = () => {
                         </button>
                        
                         </div>
-                        <div className="boton cc">
-                        <button href="#" className="btn">
-                            Agregar al carrito
-                        </button>
-
-                        </div>
+                       
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -92,12 +72,7 @@ export const Terror = () => {
                       </button>
                      
                       </div>
-                      <div className="boton cc">
-                      <button href="#" className="btn">
-                          Agregar al carrito
-                      </button>
-
-                      </div>
+                      
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -111,12 +86,7 @@ export const Terror = () => {
                         </button>
                        
                         </div>
-                        <div className="boton cc">
-                        <button href="#" className="btn">
-                            Agregar al carrito
-                        </button>
-
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -130,12 +100,7 @@ export const Terror = () => {
                       </button>
                      
                       </div>
-                      <div className="boton cc">
-                      <button href="#" className="btn">
-                          Agregar al carrito
-                      </button>
-
-                      </div>
+                     
                     </div>
                 </div>
                 <div className="card shadow sty" style={{ minWidth: "250px" }}>
@@ -149,12 +114,7 @@ export const Terror = () => {
                         </button>
                        
                         </div>
-                        <div className="boton cc">
-                        <button href="#" className="btn">
-                            Agregar al carrito
-                        </button>
-
-                        </div>
+                              
                     </div>
                 </div>
             </div>

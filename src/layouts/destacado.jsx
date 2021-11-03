@@ -33,7 +33,7 @@ export const Destacado = () => {
                 </Link>
             </li>
             <li>
-                <a href="/">
+                <Link to="/nurse">
                     <figure>
                         <img src={Libro2} alt="" />
                         <div className="capa">
@@ -49,10 +49,10 @@ export const Destacado = () => {
                             <p>(4puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link to="/premonicion">
                     <figure>
                         <img src={Libro3} alt="" />
                         <div className="capa">
@@ -68,10 +68,10 @@ export const Destacado = () => {
                             <p>(3 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link to="/ciao">
                     <figure>
                         <img src={Libro4} alt="" />
                         <div className="capa">
@@ -87,10 +87,10 @@ export const Destacado = () => {
                             <p>(4 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link to="/clodett">
                     <figure>
                         <img src={Libro6} alt="" />
                         <div className="capa">
@@ -106,10 +106,10 @@ export const Destacado = () => {
                             <p>(3 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link href="/">
                     <figure>
                         <img src={libro5} alt="" />
                         <div className="capa">
@@ -125,10 +125,10 @@ export const Destacado = () => {
                             <p>(5 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link href="/">
                     <figure>
                         <img src={libro7} alt="" />
                         <div className="capa">
@@ -144,10 +144,10 @@ export const Destacado = () => {
                             <p>(4 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link href="/">
                     <figure>
                         <img src={libro8} alt="" />
                         <div className="capa">
@@ -163,10 +163,10 @@ export const Destacado = () => {
                             <p>(3 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link href="/">
                     <figure>
                         <img src={libro9} alt="" />
                         <div className="capa">
@@ -182,10 +182,10 @@ export const Destacado = () => {
                             <p>(3 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
             <li>
-                <a href="/">
+                <Link href="/">
                     <figure>
                         <img src={libro10} alt="" />
                         <div className="capa">
@@ -201,7 +201,7 @@ export const Destacado = () => {
                             <p>(5 puntos / 1 voto)</p>
                         </div>
                     </figure>
-                </a>
+                </Link>
             </li>
         </div>
     );

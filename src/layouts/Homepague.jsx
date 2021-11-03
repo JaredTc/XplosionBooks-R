@@ -1,6 +1,7 @@
 import Comic from "../assets/comic.png";
 import { Destacado } from "./destacado";
 import "../style/Homepage.css";
+import { Link } from "react-router-dom";
 
 export const HomePage = () => {
   return (
@@ -24,8 +25,9 @@ export const HomePage = () => {
                 facilis quas quo reprehenderit accusantium! Vero velit
                 repudiandae unde nulla reprehenderit rem inventore in!
               </p>
-              <div className="buton">
-             
+              <div className="bot">
+                <Link to="/registro"> <button className="butonn">Start!</button></Link>
+               
               </div>
             </div>
           </div>
